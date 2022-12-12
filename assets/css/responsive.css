@@ -1,0 +1,356 @@
+@media only screen and (max-width:992px) {
+
+
+
+    /* header */
+
+
+    .container {
+        max-width: 900px;
+    }
+
+    header p {
+        max-width: 200px;
+    }
+
+
+    /* 2nd page */
+
+    .information .info_h {
+        font-size: 30px;
+    }
+
+    .information p {
+        font-size: 22px;
+    }
+
+
+    /* 3rd page */
+
+
+    .updates_body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .left_side h1 {
+        font-size: 35px;
+    }
+
+    .left_side p {
+        font-size: 25px;
+    }
+
+    .updates_inp input {
+        width: 650px;
+    }
+
+
+
+    /* 4th page */
+
+    #touch .container {
+        max-width: 850px;
+    }
+
+    .touch_body p {
+        font-size: 30px;
+    }
+
+    .touch_body h1 {
+        font-size: 22px;
+    }
+
+    .touch_pics {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+
+    #p_sec {
+        font-size: 22px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:768px) {
+
+    /* hr start */
+
+
+
+    .blck {
+        display: block;
+        height: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .information p {
+        margin: 0;
+    }
+
+    
+    .info_top {
+        margin: 20px auto;
+        width: 300px;
+        background-color: gray;
+
+    }
+
+
+    .info_bottom {
+        margin: 40px auto;
+        width: 100px;
+        background-color: #2dcb71;
+    }
+
+
+    .upd_top {
+        margin: auto;
+        margin-top: 30px;
+        width: 380px;
+        background-color: #2dcb71;
+    }
+
+    .upd_bot {
+        margin: auto;
+        margin-top: 30px;
+        width: 150px;
+        background-color: gray;
+    }
+
+
+    .tch_top {
+        margin:20px auto;
+   
+        width: 250px;
+        background-color: gray;
+
+    }
+
+    .tch_bot {
+        margin: 30px auto;
+        width: 80px;
+        background-color: #2dcb71;
+    }
+
+
+    /* hr end */
+
+
+
+
+    /* 2nd page */
+
+    #second_page .information {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #second_page .information a {
+        width: 90px;
+        height: 90px;
+        border-radius: 45px;
+    }
+
+    #second_page .information i {
+        font-size: 40px;
+    }
+
+
+    .information div {
+        padding: 50px;
+    }
+
+
+    .information .info_h {
+        font-size: 30px;
+    }
+
+    .information p {
+        font-size: 30px;
+        padding: 0 50px;
+    }
+
+
+    /* 2nd page end */
+
+
+
+
+   
+
+
+
+    /* footer */
+
+
+    footer nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:576px) {
+
+
+
+
+
+
+
+
+
+    /* header */
+
+    header p {
+        margin: 100px 0 0 0;
+        
+    }
+
+    header .sites {
+        margin-top: 90px;
+        padding-bottom: 50px;
+        
+    }
+
+
+
+
+    /* 2nd page */
+
+
+
+    #second_page .information {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #second_page .information a {
+        width: 90px;
+        height: 90px;
+        border-radius: 42px;
+    }
+
+    #second_page .information i {
+        font-size: 50px;
+    }
+
+
+    .information div {
+        padding: 50px;
+    }
+
+
+    .information .info_h {
+        font-size: 35px;
+
+    }
+
+    .information p {
+        font-size: 30px;
+        padding: 0 50px;
+    }
+
+
+
+
+    /* 3rd page */
+
+    .updates_inp {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .updates_inp input {
+        max-width: 200px;
+    }
+
+    
+
+    .left_side p {
+        text-align: center;
+    }
+
+
+    .updates_body iframe {
+        max-width: 350px;
+    }
+
+
+
+    /* 4th page */
+
+    .touch_body h1 {
+        font-size: 35px;
+        margin: 60px 0;
+    }
+
+
+
+    .touch_body p {
+        font-size: 25px;
+    }
+
+    .touch_body h2 {
+        font-size: 35px;
+    }
+
+
+    .touch_pics img {
+        max-width: 230px;
+        max-height: 230px;
+        object-fit: cover;
+    }
+
+
+    #p_sec {
+        font-size: 30px;
+    }
+
+
+    .touch_sites {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .touch_sites a {
+
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        margin-top: 50px;
+    }
+
+
+    .touch_sites i {
+        font-size: 25px;
+    }
+
+    /* footer */
+
+
+    footer nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+}
